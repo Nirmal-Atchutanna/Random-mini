@@ -1,0 +1,96 @@
+body {
+   margin: 0px;
+   background-color: #0f1115;
+   font-family: sans-serif;
+    color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#need-motivation {
+text-decoration: aliceblue;
+border: 2 px solid #61dafb;
+border-radius: 12 px 15 px;
+padding: 15px 25px;
+text-align: center;
+word-wrap: break-word;
+background-color: #1a1a1a;
+box-shadow: 0 0 10px rgba(97, 218, 251, 0.2);
+}
+
+#need-motivation {
+    margin-bottom: 10px;
+    color: #61dafb;
+}
+
+#motivation-quote{
+    color: #ccc;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#search-engine{
+    margin: 2rem 0;
+    text-align: center;
+
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#search-input{
+    width: 300px;
+    padding: 10px 14px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(97, 218, 251, 0.2);
+}
+
+#search-input::placeholder {
+  color: #888;
+}
+#search-form button{
+    padding: 10px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+#search-form button:hover{
+    background-color: #1b1b1b;
+}
+ul.imp-links{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+ul.imp-links li a {
+text-decoration: none;
+margin: 10px;
+color: #fff;
+background: #1f1f1f;
+padding: 10px 20px;
+border-radius: 8px;
+box-shadow:  0 0 10px rgba(97, 218, 251, 0.2) ;
+transition: all 0.2s ease
+}
+
+ul.imp-links li a:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
