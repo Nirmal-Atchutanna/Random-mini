@@ -94,3 +94,122 @@ ul.imp-links li a:hover {
     background-color: #333;
     transform: scale(1.05);
 }
+#pomodoro {
+ 
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  width: 310px;
+  background:#0f1115;
+  padding: 20px;
+  border-radius: 10px;
+ 
+  text-align: center;
+  font-family: sans-serif;
+  z-index: 1000;
+}
+
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+svg {
+  width: 200px;
+  height: 200px;
+  transform: rotate(-90deg);
+}
+
+circle {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 15;
+}
+
+#progress {
+  stroke: #ff6347;
+  stroke-dasharray: 565.48; /* 2πr */
+  stroke-dashoffset: 565.48;
+  transition: stroke-dashoffset 1s linear;
+}
+
+#time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#todo {
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  width: 220px;
+  background: #0f1115;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+  font-family: sans-serif;
+  z-index: 1000;
+}
+
+#todo input {
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#todo button {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#taskList li {
+  display: flex;
+  align-items:flex-start;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  gap: 10px;
+}
+
+#taskList li input[type="checkbox"] {
+  transform: scale(1.5);
+  flex-shrink: 0;
+}
+
+#taskList li span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.deleteBtn {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0 4px;
+  font-size: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+
+#footer{
+    text-align: bottom;
+}
